@@ -1,0 +1,33 @@
+
+:root{
+  --red:#D50000;
+  --black:#000000;
+  --yellow:#FFD600;
+  --gray:#f7f7f7;
+}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+.navbar{background:var(--black)!important;}
+.navbar .nav-link, .navbar-brand{color:#fff!important;}
+.navbar .nav-link:hover{color:var(--yellow)!important;}
+.btn-primary{background:var(--red);border-color:var(--red);}
+.btn-primary:hover{filter:brightness(1.1);}
+.btn-warning{background:var(--yellow);border-color:var(--yellow);color:#000;}
+.hero{
+  background:linear-gradient( to right, rgba(0,0,0,.65), rgba(0,0,0,.2) ),
+             url('assets/images/picture1.jpg') 
+             center/cover no-repeat;
+  color:#fff;
+  padding:100px 0;
+}
+.section-header{
+  border-left:6px solid var(--red);
+  padding-left:12px;
+  margin-bottom:1rem;
+}
+.card{border:none; box-shadow:0 6px 20px rgba(0,0,0,.06); border-radius:16px;}
+.card img{border-top-left-radius:16px;border-top-right-radius:16px; max-height:220px; object-fit:cover;}
+footer{background:#111;color:#ccc;padding:24px 0;margin-top:40px;}
+footer a{color:#fff;text-decoration:none;}
+.badge-theme{background:var(--yellow);color:#000;margin-right:4px;}
+.list-check li{margin-bottom:.6rem;}
+.list-check li::marker{color:var(--red);}
